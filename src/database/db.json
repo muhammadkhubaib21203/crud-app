@@ -1,0 +1,32 @@
+{
+  "users": [
+    {
+      "name": "muhammad khubaib",
+      "username": "muhammadkhubaib",
+      "email": "khubaib@gmail.com",
+      "phone": "03360181691",
+      "id": 1
+    },
+    {
+      "name": "suhaib",
+      "username": "suhaibansari",
+      "email": "suhaib@gmail.com",
+      "phone": "03376542876",
+      "id": 2
+    },
+    {
+      "name": "zain",
+      "username": "zainanasri",
+      "email": "zain@gmail.com",
+      "phone": "0866252525",
+      "id": 3
+    },
+    {
+      "name": "usayed",
+      "username": "usayedansari",
+      "email": "usayed@gmail.com",
+      "phone": "03367543798",
+      "id": 4
+    }
+  ]
+}
