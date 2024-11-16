@@ -46,6 +46,7 @@ const AllUsers = () => {
           </TableCell>
           <TableCell sx={{ color: "#fff", fontSize: "20px" }}>Email</TableCell>
           <TableCell sx={{ color: "#fff", fontSize: "20px" }}>Phone</TableCell>
+          <TableCell sx={{ color: "#fff", fontSize: "20px" }}>Company Name</TableCell>
           <TableCell></TableCell>
         </TableRow>
       </TableHead>
@@ -57,6 +58,7 @@ const AllUsers = () => {
             <TableCell sx={{ fontSize: "18px" }}>{user.username}</TableCell>
             <TableCell sx={{ fontSize: "18px" }}>{user.email}</TableCell>
             <TableCell sx={{ fontSize: "18px" }}>{user.phone}</TableCell>
+            <TableCell sx={{ fontSize: "18px" }}>{user.company}</TableCell>
             <TableCell>
               <Button
                 variant="contained"
