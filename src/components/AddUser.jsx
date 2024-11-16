@@ -16,6 +16,7 @@ const initialValues = {
   username: "",
   email: "",
   phone: "",
+  company: "",
 };
 
 const AddUser = () => {
@@ -50,6 +51,10 @@ const AddUser = () => {
       <FormControl sx={{ marginTop: "20px" }}>
         <InputLabel>Phone</InputLabel>
         <Input onChange={(e) => onValueChange(e)} name="phone" />
+      </FormControl>
+      <FormControl sx={{ marginTop: "20px" }}>
+        <InputLabel>Company Name</InputLabel>
+        <Input onChange={(e) => onValueChange(e)} name="company" />
       </FormControl>
       <FormControl sx={{ marginTop: "20px" }}>
         <Button onClick={() => addUserDetails()} variant="contained">

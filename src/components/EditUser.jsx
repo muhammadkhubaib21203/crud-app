@@ -78,6 +78,14 @@ const EditUser = () => {
         />
       </FormControl>
       <FormControl sx={{ marginTop: "20px" }}>
+        <InputLabel>Company Name</InputLabel>
+        <Input
+          onChange={(e) => onValueChange(e)}
+          name="company"
+          value={user.company}
+        />
+      </FormControl>
+      <FormControl sx={{ marginTop: "20px" }}>
         <Button onClick={() => addUserDetails()} variant="contained">
           Edit User
         </Button>
